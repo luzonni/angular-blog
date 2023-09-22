@@ -1,0 +1,32 @@
+.container__content {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__cover {
+    background: rgb(43, 43, 43);
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.content__cover > img {
+    width: 100%;
+    min-width: 80%;
+    border-radius: 25px;
+}
+
+.content__title > h1 {
+    font-size: 60px;
+}
+
+.content__description {
+    margin-top: 25px;
+}
+
+.content__description > p {
+    color: gray;
+}
